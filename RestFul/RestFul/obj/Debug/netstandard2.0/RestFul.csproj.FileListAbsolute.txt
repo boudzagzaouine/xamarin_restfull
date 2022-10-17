@@ -1,0 +1,16 @@
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\bin\Debug\netstandard2.0\RestFul.deps.json
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\bin\Debug\netstandard2.0\RestFul.dll
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\bin\Debug\netstandard2.0\ref\RestFul.dll
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\bin\Debug\netstandard2.0\RestFul.pdb
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\RestFul.csproj.AssemblyReference.cache
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\RestFul.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\RestFul.AssemblyInfoInputs.cache
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\RestFul.AssemblyInfo.cs
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\RestFul.csproj.CoreCompileInputs.cache
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\RestFul.dll
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\ref\RestFul.dll
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\RestFul.pdb
+C:\Users\Dev\source\repos\RestFul\RestFul\RestFul\obj\Debug\netstandard2.0\Views\PlacePage.xaml.g.cs
