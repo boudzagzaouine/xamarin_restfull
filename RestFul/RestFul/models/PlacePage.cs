@@ -64,6 +64,6 @@ namespace RestFul.models
     public class Place
     {
         public Meta Meta { get; set; }
-        public Response response { get; set; }
+        public Response Response { get; set; }
     }
 }

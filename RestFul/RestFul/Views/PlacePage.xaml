@@ -1,12 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:vm="clr-namespace:RestFul.ViewModels"
              x:Class="RestFul.Views.PlacePage">
+    <ContentPage.BindingContext>
+        <vm:PlaceViewModel/>
+    </ContentPage.BindingContext>
+    <NavigationPage.TitleView>
+        <Label Text="Search nearby - with foursquare" FontSize="20" FontAttributes="Bold" TextColor="White"/>
+    </NavigationPage.TitleView>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="0.6*"/>
+                <RowDefinition Height="0.1*"/>
+            </Grid.RowDefinitions>
+
+            <ScrollView Grid.Row="1" BackgroundColor="DarkGray">
+                <CollectionView ItemsSource="{Binding Venues}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Label Text="{Binding Name}"/>
+                                <Label Text="{Binding Location.Address}"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+            <Button Text="back to main page" Command="{Binding cmdBackToMain}" Grid.Row="2" BackgroundColor="ForestGreen"/>
+            <StackLayout>
+                <Label Text="radius : " TextColor="ForestGreen" FontAttributes="Bold" Margin="10,10,0,0"/>
+                <Entry Text="{Binding Radius,Mode=TwoWay}" Placeholder="you can change radius" Margin="10,0"/>
+                <Label Text="radius : " TextColor="ForestGreen" FontAttributes="Bold" Margin="10,10,0,0"/>
+                <Entry Text="{Binding limit,Mode=TwoWay}" Placeholder="you can change limit" Margin="10,0"/>
+                <StackLayout>
+                    <Label Text="Result : " TextColor="Red" FontAttributes="Bold" Margin="10,0"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
